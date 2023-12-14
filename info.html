@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.js"></script>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+            background: #fff; /* Set a background color that matches your design */
+        }
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 0;
+        }
+        #main-content {
+            position: relative;
+            z-index: 10; /* Ensure it's above the p5.js canvas */
+        }
+        /* Tailwind CSS doesn't come with grid-gap utilities by default, you might need to add custom CSS if needed */
+    </style>
+</head>
+<body class="overflow-hidden">
+    <nav class="absolute top-0 left-0 w-full flex justify-between items-center p-8" style="z-index: 20;">
+        <a href="https://haminseo.cargo.site/" class="text-xl uppercase hover:text-gray-700">Work</a>
+        <a href="#" class="text-xl uppercase hover:text-gray-700">Info</a>
+    </nav>
+    <!-- p5.js canvas will be inserted here by your p5 script -->
+
+    <!-- Main content -->
+    <div id="main-content" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+        <h1 class="text-4xl font-bold uppercase">HAMIN SEO</h1>
+        <a href="http://haminseo.com/" class="text-xl uppercase hover:text-gray-700">HAMIN SEO</a>
+        <h1 class="text-3xl font-bold uppercase">seohm25@gmail.com</h1>
+        <p class="text-xl mt-4"></p>
+    </div>
+
+</body>
+</html>
