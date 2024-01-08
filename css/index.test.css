@@ -1,0 +1,37 @@
+.title h1{
+position: fixed;
+top: 10;
+width: 100%;
+padding: 20px;
+overflow: hidden;
+left: 200px;
+text-transform: uppercase;
+font-weight: extra bold; 
+}
+
+.content {
+    position: fixed;
+    top: 30;
+    width: 100%;
+    padding: 8px;
+    overflow: hidden;
+}
+.content a {
+    color: rgb(0, 0, 0);
+    font-family :'Inter', sans-serif;
+    font-size : 20px; 
+    font-weight: regular;
+    text-align: justify; 
+    float: right; 
+    text-indent: 50px;
+    position: relative;
+    max-height: 150px;
+    overflow: auto;
+    right: 100px;
+    text-decoration: none; /* no underline */
+}
+
+.content a:hover {
+    color:rgb(218, 218, 218); 
+    transition: color .2s ease-in-out;
+}
