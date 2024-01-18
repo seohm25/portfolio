@@ -1,0 +1,190 @@
+.content {
+    position: fixed;
+    top: 30;
+    width: 100%;
+    padding: 8px;
+    overflow: hidden;
+}
+
+.content a {
+    color: rgb(0, 0, 0);
+    font-family :'Inter', sans-serif;
+    font-size : 20px; 
+    font-weight: regular;
+    text-align: justify; 
+    float: right; 
+    text-indent: 50px;
+    position: relative;
+    max-height: 150px;
+    overflow: auto;
+    right: 100px;
+    top: 10px;
+    text-decoration: none; /* no underline */
+}
+
+.content a:hover {
+    color:rgb(218, 218, 218); 
+    transition: color .2s ease-in-out;
+}
+
+.header { color:rgb(255, 255, 255);
+    font-family :'Inter', sans-serif;
+    font-size : 20px;
+    font-weight: bold; 
+    position: fixed;
+    width: 350px;
+    padding: 5px;
+    top: 50px;
+    right: 20px;
+}
+
+.header h2 { color:rgb(255, 255, 255);
+    font-family :'Inter', sans-serif; 
+    font-size : 15px; 
+    font-weight: lighter;
+    position: fixed;
+    width: 350px;
+    padding: 5px;
+    top: 120px;
+    right: 20px;
+}
+
+.title h1 { color:rgb(0, 0, 0); 
+    font-family :'Inter', sans-serif;
+    font-size : 40px;
+    font-weight: bold; 
+    position: fixed;
+    right: 80px;
+    top: 50px;
+    width: 500px;
+    padding: 10px
+}
+
+
+.title h2 { color:rgb(0, 0, 0); 
+    font-family :'Inter', sans-serif; 
+    font-size : 15px; 
+    font-weight: lighter;
+    position: fixed;
+    right: 80px;
+    top: 115px;
+    width: 500px;
+    padding: 10px
+}
+
+.title h3 { color:rgb(0, 0, 0);
+    font-family :'Inter', sans-serif; 
+    font-size : 15px; 
+    font-weight: lighter;
+    position: fixed;
+    right: 80px;
+    top: 150px;
+    width: 500px;
+    padding: 10px
+}
+
+.title h3 { color:rgb(0, 0, 0);
+    font-family :'Inter', sans-serif; 
+    font-size : 15px; 
+    font-weight: lighter;
+    position: fixed;
+    right: 80px;
+    top: 150px;
+    width: 500px;
+    padding: 10px
+}
+
+
+.title p { 
+    color:rgb(99, 99, 99);
+    font-family :'Inter', sans-serif;
+    font-size : 15px; 
+    font-weight: regular;
+    position: fixed;
+    right: 80px;
+    top: 200px;
+    width: 500px;
+    padding: 10px;
+    overflow: auto;
+}
+
+
+.video_photo { 
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    break-inside: avoid-column;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    top: 70px;
+    left: 60px;
+}
+
+
+.photo { 
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    break-inside: avoid-column;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    top: 70px;
+    left: 60px;
+}
+
+.imagelanguage_photo {
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    break-inside: avoid-column;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    top: 70px;
+    left: 40px;
+}
+
+.wrapper {
+    margin : auto;
+    width: 92%; 
+    padding-top: 40px;
+    padding-bottom: 0px; 
+}
+
+.footer {
+    padding-top: 90px;
+    padding-bottom: 40px; 
+    font-size: 14px;
+    line-height: 19.84px; 
+    text-align: center; 
+    color: #3e4550;
+}
+
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    align-items:stretch;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    -ms-flex: 30%; /* IE 10 */
+    flex: 30%;
+    padding: 0 4px;
+    object-fit: cover;
+    justify-content: center;
+    align-items:stretch;
+}
+
+  .iframe {
+    position: relative
+    left: 100px
+  }
